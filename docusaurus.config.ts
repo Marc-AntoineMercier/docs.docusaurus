@@ -25,6 +25,10 @@ const config: Config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
+  trailingSlash: false,
+
+  onDuplicateRoutes: 'warn',
+
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
